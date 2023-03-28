@@ -19,4 +19,12 @@ Additionally, each plot has a customized x and y axis label, a plot title, and a
 The cor() function calculates the correlation coefficient between the Seed and WinPct variables in the df data frame, and assigns the resulting matrix to the correlation_matrix variable. The print() function is then used to display the matrix in the console.
 The correlation coefficient is a statistical measure of the strength and direction of the linear relationship between two variables, Seed and Win . It ranges from -1 to 1, with -1 indicating a perfect negative correlation, 0 indicating no correlation, and 1 indicating a perfect positive correlation.
 
-# 
+# Prediction steps 
+
+We then define a function "predict_winner" that takes in two teams as inputs and predicts the winner of the game based on their seeds and win percentages. We use the "if" and "else if" statements to compare the seeds and win percentages of the two teams to determine the winner.
+Next, we create a list "games" with the matchups for the first round of the tournament. 
+
+We use the "sapply" function to apply the "predict_winner" function to each game and store the predicted winners in a vector "winners". We then print the predicted winners for each game.
+After the first round, we create a new data frame "teams" with only the teams that won their first-round games. We then define the matchups for the second round in a data frame "matchups". We loop through the matchups and predict the winner of each game based on the win percentages of the two teams, using a random number to determine the winner.
+
+Finally, we create a new data frame "teams" with the teams that advanced to the third round. We define the matchups for the third round in a list "matchups". We loop through the matchups and determine the winner of each game based on the win percentages of the two teams, using a random number to determine the winner.
