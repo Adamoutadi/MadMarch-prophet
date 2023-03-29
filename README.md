@@ -28,3 +28,10 @@ We use the "sapply" function to apply the "predict_winner" function to each game
 After the first round, we create a new data frame "teams" with only the teams that won their first-round games. We then define the matchups for the second round in a data frame "matchups". We loop through the matchups and predict the winner of each game based on the win percentages of the two teams, using a random number to determine the winner.
 
 Finally, we create a new data frame "teams" with the teams that advanced to the third round. We define the matchups for the third round in a list "matchups". We loop through the matchups and determine the winner of each game based on the win percentages of the two teams, using a random number to determine the winner.
+
+# Shiny App
+
+The first part of the code defines the user interface (UI) of the app using the fluidPage function from the Shiny package. The UI has two panels: a sidebar panel and a main panel. The sidebar panel contains a select input control for the user to choose a region. The main panel has two plot outputs to display the correlation matrix and the prediction plot.
+
+The second part of the code defines the server-side logic using the server function. The server function is responsible for processing user input, creating reactive data frames, and generating the output for the UI. The reactive function is used to create a reactive data frame based on the user's input region. The renderPlot function is used to generate the correlation matrix and prediction plot based on the reactive data frame.
+Finally, the shinyApp function is used to run the app by passing in the UI and server functions as arguments.
