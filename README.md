@@ -1,3 +1,12 @@
+
+
+                                                
+                                            <img width="631" alt="Screen Shot 2023-04-13 at 2 19 54 PM" src="https://user-images.githubusercontent.com/75454891/231861578-9b02f1c3-9d26-46eb-9e7a-bea356074b43.png">
+
+
+
+
+
 # MadMarch-Prophet
 
 The 1st Part of the code is importing necessary packages and libraries, setting the working directory, reading in a CSV file containing game data, renaming two columns, and then creating four data frames for each region of the NCAA basketball tournament (South, Midwest, West, and East) by selecting only the rows that contain teams from each region.
