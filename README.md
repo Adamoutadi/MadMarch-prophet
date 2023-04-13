@@ -32,6 +32,17 @@ Finally, we create a new data frame "teams" with the teams that advanced to the 
 Due to the small size of our dataset, the prediction model used in this Shiny app is based on a simple algorithm that considers the seed and win percentage of two selected teams to predict the winner of a matchup. The algorithm first checks which team has a lower seed, and if one team has a lower seed, it is predicted to win. If the seeds are the same, the algorithm then checks which team has a higher win percentage, and the team with the higher win percentage is predicted to win.
 It's worth noting that this algorithm is a very basic model, and there are many other factors that can influence the outcome of a basketball game. Factors such as injuries, team chemistry, and player performance can all affect the outcome of a game, and are not taken into account in this model. Nonetheless, it provides a simple and intuitive way for users to compare two teams and make a prediction based on basic statistics.
 
+# Game prediction 
+
+# South 
+<img width="1001" alt="Screen Shot 2023-04-13 at 2 08 08 PM" src="https://user-images.githubusercontent.com/75454891/231860097-2a6ecf6c-bc54-4bb4-80de-7b7677715baa.png">
+ 
+# Midwest 
+<img width="957" alt="Screen Shot 2023-04-13 at 1 09 33 PM" src="https://user-images.githubusercontent.com/75454891/231860285-9416f79e-39a1-4cac-9b8a-cd43d235a650.png">
+
+
+
+
 # Shiny App
 
 The first part of the code defines the user interface (UI) of the app using the fluidPage function from the Shiny package. The UI has two panels: a sidebar panel and a main panel. The sidebar panel contains a select input control for the user to choose a region. The main panel has two plot outputs to display the correlation matrix and the prediction plot.
