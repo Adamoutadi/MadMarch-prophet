@@ -6,7 +6,7 @@
 
 
 
-# MadMarch-Prophet
+# MadMarch-Prophet ⛹️
 
 The 1st Part of the code is importing necessary packages and libraries, setting the working directory, reading in a CSV file containing game data, renaming two columns, and then creating four data frames for each region of the NCAA basketball tournament (South, Midwest, West, and East) by selecting only the rows that contain teams from each region.
 Specifically, the code first imports several packages including tidyr, plyr, dplyr, tidyverse, readxl, lubridate, ggplot2, hrbrthemes, viridis, glmnet, pROC, and corrplot.
@@ -27,7 +27,7 @@ Additionally, each plot has a customized x and y axis label, a plot title, and a
 The cor() function calculates the correlation coefficient between the Seed and WinPct variables in the df data frame, and assigns the resulting matrix to the correlation_matrix variable. The print() function is then used to display the matrix in the console.
 The correlation coefficient is a statistical measure of the strength and direction of the linear relationship between two variables, Seed and Win . It ranges from -1 to 1, with -1 indicating a perfect negative correlation, 0 indicating no correlation, and 1 indicating a perfect positive correlation.
 
-# Prediction steps 
+# Prediction steps 🏀 📈
 
 We then define a function "predict_winner" that takes in two teams as inputs and predicts the winner of the game based on their seeds and win percentages. We use the "if" and "else if" statements to compare the seeds and win percentages of the two teams to determine the winner.
 Next, we create a list "games" with the matchups for the first round of the tournament. 
@@ -40,18 +40,18 @@ Finally, we create a new data frame "teams" with the teams that advanced to the 
 Due to the small size of our dataset, the prediction model used in this Shiny app is based on a simple algorithm that considers the seed and win percentage of two selected teams to predict the winner of a matchup. The algorithm first checks which team has a lower seed, and if one team has a lower seed, it is predicted to win. If the seeds are the same, the algorithm then checks which team has a higher win percentage, and the team with the higher win percentage is predicted to win.
 It's worth noting that this algorithm is a very basic model, and there are many other factors that can influence the outcome of a basketball game. Factors such as injuries, team chemistry, and player performance can all affect the outcome of a game, and are not taken into account in this model. Nonetheless, it provides a simple and intuitive way for users to compare two teams and make a prediction based on basic statistics.
 
-# Game prediction 
+# Game prediction 📉	
 
-# South 
+# South 🤠
 <img width="1001" alt="Screen Shot 2023-04-13 at 2 08 08 PM" src="https://user-images.githubusercontent.com/75454891/231860097-2a6ecf6c-bc54-4bb4-80de-7b7677715baa.png">
  
-# Midwest 
+# Midwest 🌽
 <img width="957" alt="Screen Shot 2023-04-13 at 1 09 33 PM" src="https://user-images.githubusercontent.com/75454891/231860285-9416f79e-39a1-4cac-9b8a-cd43d235a650.png">
 
 
 
 
-# Shiny App
+# Shiny App 📲
 
 The first part of the code defines the user interface (UI) of the app using the fluidPage function from the Shiny package. The UI has two panels: a sidebar panel and a main panel. The sidebar panel contains a select input control for the user to choose a region. The main panel has two plot outputs to display the correlation matrix and the prediction plot.
 
