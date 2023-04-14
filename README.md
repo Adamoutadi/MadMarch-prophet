@@ -56,6 +56,15 @@ It's worth noting that this algorithm is a very basic model, and there are many 
 
 <img width="678" alt="Screen Shot 2023-04-13 at 7 12 42 PM" src="https://user-images.githubusercontent.com/75454891/231909579-6b010472-4b3e-4715-9145-019b3d3d7533.png">
 
+# Semi finals
+
+ <img width="678" alt="Screen Shot 2023-04-13 at 7 23 59 PM" src="https://user-images.githubusercontent.com/75454891/231910870-e02b61b1-55ec-4e52-9ba0-aa98a8fb147c.png">
+ 
+ # Finals 
+ 
+ <img width="678" alt="Screen Shot 2023-04-13 at 7 25 25 PM" src="https://user-images.githubusercontent.com/75454891/231910917-3ee9ce52-39b5-486f-bf71-8048da54d239.png">
+
+
 
 
 
