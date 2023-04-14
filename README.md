@@ -6,7 +6,7 @@
 
 
 
-# MadMarch-Prophet ⛹️ 👁️⃤
+# MadMarch-Prophet ⛹️ 
 
 The 1st Part of the code is importing necessary packages and libraries, setting the working directory, reading in a CSV file containing game data, renaming two columns, and then creating four data frames for each region of the NCAA basketball tournament (South, Midwest, West, and East) by selecting only the rows that contain teams from each region.
 Specifically, the code first imports several packages including tidyr, plyr, dplyr, tidyverse, readxl, lubridate, ggplot2, hrbrthemes, viridis, glmnet, pROC, and corrplot.
