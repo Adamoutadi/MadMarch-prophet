@@ -52,6 +52,11 @@ It's worth noting that this algorithm is a very basic model, and there are many 
 
 <img width="693" alt="Screen Shot 2023-04-13 at 7 03 36 PM" src="https://user-images.githubusercontent.com/75454891/231908733-c19f9e3e-4002-4bf4-9e9a-27b008a8bdee.png">
 
+# East 🗽
+
+<img width="678" alt="Screen Shot 2023-04-13 at 7 12 42 PM" src="https://user-images.githubusercontent.com/75454891/231909579-6b010472-4b3e-4715-9145-019b3d3d7533.png">
+
+
 
 
 
