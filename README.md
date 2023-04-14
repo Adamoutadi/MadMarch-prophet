@@ -48,6 +48,10 @@ It's worth noting that this algorithm is a very basic model, and there are many 
 # Midwest 🌽
 <img width="957" alt="Screen Shot 2023-04-13 at 1 09 33 PM" src="https://user-images.githubusercontent.com/75454891/231860285-9416f79e-39a1-4cac-9b8a-cd43d235a650.png">
 
+# West 🧭
+
+<img width="693" alt="Screen Shot 2023-04-13 at 7 03 36 PM" src="https://user-images.githubusercontent.com/75454891/231908733-c19f9e3e-4002-4bf4-9e9a-27b008a8bdee.png">
+
 
 
 
